@@ -9,7 +9,7 @@ let healthRecords = [];
 let appointments = [];
 const appointmentIcons = {Dentist:'🦷','Eye Check':'👁','Doctor':'🩺',Vaccination:'💉',Specialist:'🩻','Lab / Test':'🧪',Hospital:'🏥',Other:'📅'};
 // Paste your private Google Apps Script Web App URL here after deployment.
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwdspoLBbfuUhemKLVtJfsJ9f3pYu5qF3ZDgCJMn2PUg6vCFnvcBgHckjpjCoapGqKy/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyq4zQ-RSk5fHUpXMZ7dhpr7iz4H7YnFA8BgEKu0SjXUkNLHb1_S55JZNgrli_NTnLw/exec';
 const labels = { glucose:['Glucose','mmol/L','e.g. 5.4'], bloodPressure:['Blood pressure','mmHg','e.g. 118/76'], pulse:['Pulse','bpm','e.g. 72'], temperature:['Temperature','°C','e.g. 36.8'], weight:['Weight','kg','e.g. 52.5'], height:['Height','cm','e.g. 165'] };
 // Centralized Health Reference Engine. This provides reference status, never a diagnosis.
 const healthReferenceConfig = {
